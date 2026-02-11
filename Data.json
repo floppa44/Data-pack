@@ -1,39 +1,55 @@
-
 {
-	"PlayerData": [
-		{
-			"ID": 1,
-			"Forename": "Felix",
-			"Surname": "Ender",
-			"ImageURL": "<https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDu1VsMiKMx5MDFyAHR8PLerjekET8CVUZu-m0uAvY4k8T73MwBn_mwno&s=10>"
-		},
-	],
-	"ClubData": [
-		{
-			"ID": 1,
-			"Name": "Liverpool FC",
-			"ShortName": "LIV",
-			"ImageURL": "<https://static.vecteezy.com/ti/vecteur-libre/p1/26135429-liverpool-club-symbole-logo-premier-ligue-football-abstrait-conception-vecteur-illustration-gratuit-vectoriel.jpg>"
-		}
-	],
-	"LeagueData": [
-		{
-			"ID": 28,
-			"Name": "Première League",
-			"ImageURL": "<https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-the-official-premier-league-logo-transparent-background-701751712333741unp10ha2yg.png>"
-		}
-	],
-	"CupData": [
-		{
-			"ID": 2,
-			"Name": "Emirates FA CUP",
-			"ImageURL": "<https://upload.wikimedia.org/wikipedia/fr/7/75/FA-CUP-2020-logo.png>"
-		}
-	],
-	"StadiumData": [
-		{
-			"ID": 1,
-			"Name": "Anfield"
-		}
-	]
+  "PlayerData": [
+    {
+      "ID": 900001,
+      "Forename": "Felix",
+      "Surname": "Ender",
+      "ClubID": 900101,
+      "Position": BUG",
+      "OverallRating": 85,
+      "Potential": 99,
+      "Age": 19,
+      "Nationality": "French",
+      "ImageURL": "https://thumbnail.imgbin.com/13/15/12/lewis-hamilton-man-in-racing-suit-SxG69DkT_t.jpg"
+    }
+  ],
+
+  "ClubData": [
+    {
+      "ID": 900101,
+      "Name": "Liverpool FC",
+      "ShortName": "LIV",
+      "LeagueID": 900301,
+      "StadiumID": 900201,
+      "Nation": "England",
+      "ImageURL": "https://stylfoot.fr/3835-thickbox_01icon/logo-liverpool.jpg"
+    }
+  ],
+
+  "LeagueData": [
+    {
+      "ID": 900301,
+      "Name": "Premier League",
+      "Nation": "England",
+      "ImageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicpqNPaCIHZUdwLRz98-MdcEJPQ0kMeIT9j6uqOyxBwtHZYfxNUtG76-j&s=10"
+    }
+  ],
+
+  "CupData": [
+    {
+      "ID": 900401,
+      "Name": "Emirates FA Cup",
+      "Nation": "England",
+      "ImageURL": "https://upload.wikimedia.org/wikipedia/fr/7/75/FA-CUP-2020-logo.png"
+    }
+  ],
+
+  "StadiumData": [
+    {
+      "ID": 900201,
+      "Name": "Anfield",
+      "Capacity": 54000,
+      "Nation": "England"
+    }
+  ]
 }
